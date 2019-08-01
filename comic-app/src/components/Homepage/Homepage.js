@@ -7,7 +7,7 @@ function Homepage() {
     return (
         <div className='home'>
             <nav className='navy'>
-                <Link to='/maincomp' className='comicbar'> COMIC LIST BY YEAR </Link>
+                <Link to='/maincomp' className='comicbar'> CLICK FOR COMIC LIST BY YEAR </Link>
             </nav>
 
                 <Route path='/maincomp' component={MainContainer}></Route>

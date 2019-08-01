@@ -5,7 +5,7 @@ function Filter(props) {
         <div className="form-container">
           <form className='filtery' onSubmit={props.onSubmit}> 
                 <input className='inputy' name="value" type="text" value={props.value} onChange={props.change} />
-                <button className="btn btn-danger" type="submit"   >Search by year</button>
+                <button className="btn btn-danger" type="submit">Search by year</button>
         </form>
         </div>
     )

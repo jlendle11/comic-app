@@ -9,6 +9,12 @@
     background-size: cover;
     font-family: "Marvel";
     color: white;
+    margin-right: 5px;
+    width: 1440px;
+}
+
+.header2 {
+    color: black;
 }
 
 @font-face {

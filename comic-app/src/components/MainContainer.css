@@ -17,6 +17,7 @@ src: url('./assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
 
 .comic-head {
     background: rgba(237, 29, 36, .6);
+    color: black;
     width: fit-content;
     border-radius: 5px;
 }
@@ -26,6 +27,7 @@ src: url('./assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
     width: fit-content;
     border-radius: 5px;
     font-size: 16px;
+    color: white;
 }
 
 .load-load {
@@ -36,6 +38,7 @@ src: url('./assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
 
 .home-link {
     color: white;
+    padding: 0 694.5px 0 694.5px;
 }
 
 .card {

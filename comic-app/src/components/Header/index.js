@@ -4,7 +4,7 @@ import React from 'react'
 function Header() {
     return (
         <div className='header-container'>
-            <div className='header'>MARVEL ARCHIVES</div>
+            <div className='header'>MARVEL <span className='header2'>ARCHIVES</span></div>
         </div>
     )
 }

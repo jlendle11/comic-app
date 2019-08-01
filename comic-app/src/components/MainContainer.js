@@ -27,12 +27,12 @@ class MainContainer extends React.Component {
 
     handleInputChange = (event) => {
         event.preventDefault()
-        this.setState({ input: event.target.value });
+        this.setState({ input: event.target.value })
     }
 
     handleSubmit = (event) => {
         event.preventDefault()
-        this.getCall()
+        this.state.input > 0 ? this.getCall() : alert('Please enter valid year')
     }
 
     getCall = () => {

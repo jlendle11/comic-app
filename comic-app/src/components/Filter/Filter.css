@@ -10,8 +10,8 @@
 .inputy {
     padding: 0;
     border: 0;
-    color: black;
-    height: 100%;
+    color: whitesmoke;
+    border: solid #3A001E 1px;
     width: 8%;
     background-color:rgba(237, 29, 36, .6);
     text-align: center;
@@ -23,13 +23,16 @@
   .inputy:active {
     width: 14%;
     background-color: whitesmoke;
+    color: black;
   }
   
   .inputy:focus {
     width: 14%;
     background-color: whitesmoke;
+    color: black;
   }
 
   .btn {
     padding: 0;
+    margin-bottom: 4px;
   }

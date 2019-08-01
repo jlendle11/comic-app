@@ -14,6 +14,10 @@
     font-weight: 800;
     margin-top: 14px;
     font-family: "Marvel";
+    color: black;
+}
+
+.marvel-word {
     color: white;
 }
 
