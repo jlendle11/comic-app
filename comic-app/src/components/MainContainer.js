@@ -76,7 +76,7 @@ class MainContainer extends React.Component {
                     <Carousel.Item key={item.id}>
                     <div className='card' id='comics'>
                         <h1 className='comic-head'> {title} </h1> 
-                        <img src={item.thumbnail.path + '/portrait_xlarge.' + item.thumbnail.extension} alt='hey'/>
+                        <img src={item.thumbnail.path + '/portrait_incredible.' + item.thumbnail.extension} alt='hey'/>
                         <p className='comic-text'>{item.description}</p>
                     </div>
                     </Carousel.Item>
