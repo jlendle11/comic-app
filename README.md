@@ -3,7 +3,7 @@
 ## Link to Website
 - http://marvel-archive.surge.sh/
 ## Screenshots/Video  
-- ![app](https://github.com/jlendle11/comic-book-fetcher/blob/feature/comic-app/src/components/images/Comic-stuff.png)
+
 -![app-gif](https://github.com/jlendle11/comic-book-fetcher/blob/feature/comic-app/src/components/images/app-gif.gif)
 
 ## Description and user story
