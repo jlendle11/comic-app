@@ -4,6 +4,7 @@
 - http://marvel-archive.surge.sh/
 ## Screenshots/Video  
 - ![app](https://github.com/jlendle11/comic-book-fetcher/blob/feature/comic-app/src/components/images/Comic-stuff.png)
+-![app-gif](https://github.com/jlendle11/comic-book-fetcher/blob/feature/comic-app/src/components/images/app-gif.gif)
 
 ## Description and user story
 -Look through Marvel comic book series, filtered by the year they came out
@@ -14,7 +15,8 @@
 
 
 ## Major problems & solutions
--Need too fix how app looks on mobile
+-Need to fix how app looks on mobile
+-Marvel API is a bit slow when it comes to displaying fetched data. Not much I can do on my end
 
 
 ## MVP
