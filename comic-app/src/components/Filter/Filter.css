@@ -2,10 +2,13 @@
 .form-container {
     text-align: center;
     background: RGB(237, 29, 36);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
 }
 
-.button {
+/* .button {
     color: blueviolet;
     background: RGB(237, 29, 36);
     border: none;
-}
+} */

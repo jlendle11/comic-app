@@ -2,10 +2,11 @@ import React from 'react';
 import axios from 'axios';
 import { Route, Link } from 'react-router-dom';
 import Homepage from './Homepage/Homepage';
-import Loader from 'react-loader-spinner'
-import Filter from './Filter/Filter'
-import './Filter/Filter.css'
-import './MainContainer.css'
+import Loader from 'react-loader-spinner';
+import Filter from './Filter/Filter';
+import './Filter/Filter.css';
+import './MainContainer.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 class MainContainer extends React.Component {
     constructor(props) {
@@ -67,16 +68,21 @@ class MainContainer extends React.Component {
                 </nav>
                     <Route path='./main' component={Homepage} ></Route>
                     <Filter value={this.state.input} change={this.handleInputChange} onSubmit={this.handleSubmit}/>
+                    <Carousel>
+                    
                 {this.state.titles.map(item => {
                 const { title } = item
                 return (
-                    <div key={item.id} className='comics'>
+                    <Carousel.Item key={item.id}>
+                    <div className='card' id='comics'>
                         <h1 className='comic-head'> {title} </h1> 
                         <img src={item.thumbnail.path + '/portrait_xlarge.' + item.thumbnail.extension} alt='hey'/>
                         <p className='comic-text'>{item.description}</p>
                     </div>
+                    </Carousel.Item>
                 )
                 })}
+                </Carousel>
             </div>
         )
     } else {

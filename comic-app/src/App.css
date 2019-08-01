@@ -8,3 +8,9 @@ height: 100vh;
     flex-direction: column;
     animation: screensaver 20s infinite;
 }
+
+a:hover {
+    text-decoration: none;
+    background-color: rgba(237, 29, 36);
+}
+
