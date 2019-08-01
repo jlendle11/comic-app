@@ -7,8 +7,29 @@
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
 }
 
-/* .button {
-    color: blueviolet;
-    background: RGB(237, 29, 36);
-    border: none;
-} */
+.inputy {
+    padding: 0;
+    border: 0;
+    color: black;
+    height: 100%;
+    width: 8%;
+    background-color:rgba(237, 29, 36, .6);
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 16px;
+    transition: 1s;
+  }
+  
+  .inputy:active {
+    width: 14%;
+    background-color: whitesmoke;
+  }
+  
+  .inputy:focus {
+    width: 14%;
+    background-color: whitesmoke;
+  }
+
+  .btn {
+    padding: 0;
+  }
