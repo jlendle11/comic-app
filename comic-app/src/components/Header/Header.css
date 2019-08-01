@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+.header {
+    display: flex;
+    background: RGB(237, 29, 36);
+    font-size: 72px;
+    justify-content: center;
+    height: 104px;
+    background-size: cover;
+    font-family: "Marvel";
+    color: white;
+}
+
+@font-face {
+    font-family: "Marvel";
+    src: url('../assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
+}

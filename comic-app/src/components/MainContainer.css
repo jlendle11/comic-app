@@ -1,0 +1,37 @@
+.comics {
+    text-align: -webkit-center;
+    font-family: "Marvel";
+    color: white;
+}
+
+@font-face {
+font-family: "Marvel";
+src: url('./assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
+}
+
+.allcomic {
+    background: inherit;
+}
+
+.comic-head {
+    background: rgba(237, 29, 36, .8);
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.comic-text {
+    background: rgba(237, 29, 36, .8);
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.load-load {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.home-link {
+    color: white;
+}

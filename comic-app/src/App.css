@@ -1,0 +1,10 @@
+.app-container {
+height: 100vh;
+}
+
+.navy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    animation: screensaver 20s infinite;
+}
