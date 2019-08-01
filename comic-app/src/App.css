@@ -1,0 +1,17 @@
+.app-container {
+height: 100vh;
+position: absolute;
+}
+
+.navy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    animation: screensaver 20s infinite;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #3A001E;
+}
+

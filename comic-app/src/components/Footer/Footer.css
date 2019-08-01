@@ -1,0 +1,27 @@
+
+
+.footer-container {
+    background: RGB(237, 29, 36);
+    height: 36vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+.footer {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 14px;
+    font-family: "Marvel";
+    color: black;
+}
+
+.marvel-word {
+    color: white;
+}
+
+@font-face {
+    font-family: "Marvel";
+    src: url('../assets/fonts/SlimSansSerif-Bold/SlimSansSerif-Bold.ttf')
+}

@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    background-size: cover;
+    animation: screensaver 20s infinite;
+    
+}
+
+@keyframes screensaver {
+    0% {
+        background-image: url('../images/home1.jpg');
+    }
+    25% {
+        background-image: url('../images/home2.jpg');
+    }
+    50% {
+        background-image: url('../images/home3.jpg');
+    }
+    75% {
+        background-image: url('../images/home4.jpg');
+    }
+    100% {
+        background-image: url('../images/home5.jpg');
+    }
+}
+
+
+.comicbar {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background: rgba(237, 29, 36);
+    color: white;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+.list-link {
+    border: solid white 1px;
+}
+
