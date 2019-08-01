@@ -16,8 +16,8 @@
 
 ## Major problems & solutions
 -Need to fix how app looks on mobile
--Marvel API is a bit slow when it comes to displaying fetched data. Not much I can do on my end
+-Marvel API is a bit slow when it comes to displaying fetched data. Not much I can do on my end.
 
 
 ## MVP
--User is able to type in a year and app wil display comic series that were released in that year
+-User is able to type in a year and app will display comic series that released that year
