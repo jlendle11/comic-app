@@ -10,10 +10,10 @@
 .inputy {
     padding: 0;
     border: 0;
-    color: whitesmoke;
+    color: black;
     border: solid #3A001E 1px;
     width: 8%;
-    background-color:rgba(237, 29, 36, .6);
+    background-color: whitesmoke;
     text-align: center;
     -webkit-appearance: none;
     font-size: 16px;
