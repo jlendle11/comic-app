@@ -1,4 +1,4 @@
-# Comic Book Fetcher
+# Comic App
 - http://marvel-archive.surge.sh
 
 Comic Book Fetcher allows you to look through Marvel comic book series, filtered by the year they came out!
