@@ -1,7 +1,7 @@
-# comic-book-fetcher
+# Comic Book Fetcher
+- http://marvel-archive.surge.sh
 
-## Link to Website
-- http://marvel-archive.surge.sh/
+
 ## Screenshots/Video  
 
 -![app-gif](https://github.com/jlendle11/comic-book-fetcher/blob/feature/comic-app/src/components/images/app-gif.gif)
